@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Книги та фільми про війну 2025</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      background-color: #3b3d2d; /* темно-оливковий */
+      color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #2f3024 !important;
+    }
+    .navbar .nav-link,
+    .navbar-brand {
+      color: #f5f5f5 !important;
+    }
+    .navbar .nav-link:hover {
+      color: #ffa500 !important;
+    }
+
+    .btn-primary {
+      background-color: #ffa500;
+      border-color: #ffa500;
+    }
+    .btn-primary:hover {
+      background-color: #cc8400;
+      border-color: #cc8400;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('https://kino.24tv.ua/resources/photos/news/202304/2293551.jpg?v=1681307609000') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h1 { font-size: 4rem; font-weight: bold; }
+    .hero p { font-size: 1.5rem; margin-bottom: 1.5rem; }
+
+    section { padding: 80px 0; }
+
+    .card {
+      background-color: #4a4c3a;
+      border: none;
+      color: #fff;
+    }
+    .card-title { color: #ffa500; }
+
+    footer {
+      background-color: #2f3024;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .fade-in-section {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    .fade-in-section.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    .review {
+      background-color: #4a4c3a;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+    .review img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .review h5 {
+      color: #ffa500;
+      margin-top: 10px;
+    }
+    a.more-link {
+      color: #ffa500;
+      text-decoration: none;
+    }
+    a.more-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Навігація -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Війна 2025</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Головна</a></li>
+        <li class="nav-item"><a class="nav-link" href="#books">Книги</a></li>
+        <li class="nav-item"><a class="nav-link" href="#movies">Фільми</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Огляди</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacts">Контакти</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero fade-in-section">
+  <h1>Книги та фільми про війну 2025</h1>
+  <p>Огляди, рецензії та глибокі історії про людяність у часи війни</p>
+  <a href="#reviews" class="btn btn-lg btn-primary">Перейти до оглядів</a>
+</section>
+
+<!-- Книги -->
+<section id="books" class="fade-in-section">
+  <div class="container">
+    <h2 class="text-center mb-5 text-warning">Книги про війну</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://static.ukrinform.com/photos/2025_02/1740212803-195.jpg" class="card-img-top" alt="Мить перед бурею">
+          <div class="card-body">
+            <h5 class="card-title">" Бабах на всю голову "</h5>
+            <p>Це збірка пронизливих текстів про російсько-українську війну від автора-військовослужбовця, який не боїться бути відвертим.</p>
+            <a href="https://book-ye.com.ua/hudozhnja-literatura/proza/suchasna-ukrayinska-proza/babakh-na-vsyu-holovu/" target="_blank" class="more-link"> Купити</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://static.ukrinform.com/photos/2025_02/1740212992-317.jpg" class="card-img-top" alt="Тіні фронту">
+          <div class="card-body">
+            <h5 class="card-title">"Потяг прибуває за розкладом"</h5>
+            <p>Це реальні історії людей, які щодня роблять надможливе заради того, щоб головна артерія країни невпинно працювала.</p>
+            <a href="https://www.yakaboo.ua/ua/potjag-pribuvae-za-rozkladom-istorii-ljudej-i-zaliznici.html" target="_blank" class="more-link"> Купити </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://static.ukrinform.com/photos/2025_02/1740213131-820.jpg" class="card-img-top" alt="Останній лист">
+          <div class="card-body">
+            <h5 class="card-title">"Вірші з бійниці"</h5>
+            <p>Поезія в окопах, маючи тривалу історію у світовій літературі, сьогодні набуває обрисів одного з наших хлопців, Максима.</p>
+            <a href="https://nashformat.ua/products/ebook-virshi-z-bijnytsi-629626" target="_blank" class="more-link"> Купити</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Фільми -->
+<section id="movies" class="fade-in-section bg-dark">
+  <div class="container">
+    <h2 class="text-center mb-5 text-warning">Фільми про війну</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://tv-park.ua/wp-content/uploads/2025/01/678fbbcbee59d.jpeg" class="card-img-top" alt="Лінія вогню">
+          <div class="card-body">
+            <h5 class="card-title">"Каховський об’єкт"</h5>
+            <p>Каховський об’єкт» — друга частина горор-франшизи, що стартувала з «Конотопської відьми».</p>
+            <a  target="_blank" class="more-link"> </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://marieclaire.ua/wp-content/uploads/2024/11/img_kw0fedA.jpg.webp" class="card-img-top" alt="Небо над нами">
+          <div class="card-body">
+            <h5 class="card-title">"Кіллхаус"</h5>
+            <p>Екшн-трилер «Кіллхаус» бере за основу рятувальну операцію 93-ї бригади «Холодний Яр» під Ізюмом, про яку Левицький вже зняв док «Йди за мною», але змінює конфігурацію учасників і драматизує події. </p>
+            <a  target="_blank" class="more-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://cdn-ksvod.kyivstar.ua/content/HLS/VOD/IMAGE2/6304c485d8b4acc222f0fb63/IMAGE_2_3_L.jpg" class="card-img-top" alt="Повернення">
+          <div class="card-body">
+            <h5 class="card-title">"Кіборги"</h5>
+            <p>"Кіборги" — українська військова драма 2017 року, що розповідає про героїчну оборону Донецького аеропорту українськими військовими та добровольцями під час війни на Донбасі.</p>
+            <a  target="_blank" class="more-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Рецензії -->
+
+<section id="reviews" class="fade-in-section">
+  <div class="container">
+    <h2 class="text-center mb-5 text-warning">Рецензії та аналітичні огляди</h2>
+
+    <div class="row align-items-center review mb-4">
+      <div class="col-md-4 text-center">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Аватар користувача 1" class="review-avatar">
+      </div>
+      <div class="col-md-8">
+          <h5>"Каховський об’єкт"</h5>
+        <p>«Каховський об’єкт» — це український зомбі-горор, який поєднує антирадянську тематику з елементами екшену та надприродного. Події розгортаються після підриву Каховської дамби, коли група українських військових на чолі з Марою потрапляє до радянського підземного бункера, де проводили експерименти над людьми. Фільм насичений атмосфери клаустрофобії та постійної небезпеки, а присутність радянської символіки у поєднанні з зомбі створює свіжу для українського кінематографа метафору «живої спадщини імперії».
+Сильні сторони стрічки — це напружена атмосфера, майстерна робота зі світлом, операторська робота у вузьких коридорах бункера, а також переконлива акторська гра, зокрема Марини Кошкіної. Екшен-сцени, зустрічі з зомбі та галюцинації героїв тримають увагу глядача і додають інтриги. Візуальні ефекти й грим достатньо якісні, хоча у фінальних сценах інколи відчутний обмежений бюджет.
+Слабкі місця фільму — це банальний сценарій і нелогічна поведінка персонажів, рваний монтаж, надмірний пафос та недопрацьовані діалоги. Незважаючи на цікаву концепцію та жанрову амбіційність, сюжет іноді виглядає роздробленим, а інтрига — слабкою.
+У підсумку, «Каховський об’єкт» є кроком уперед порівняно з попередньою роботою студії «Конотопська відьма», демонструючи прогрес у масштабності та жанровій сміливості, проте ще далекий від справжнього прориву в українському кіно. Фільм цікавий для перегляду, здатний подарувати хвилювання та атмосферу горору, але його основна проблема — слабкий сюжет — обмежує потенціал стрічки стати пам’ятною та визначальною для жанру.
+        </p>
+      </div>
+    </div>
+
+    <div class="row align-items-center review flex-row-reverse mb-4">
+      <div class="col-md-4 text-center">
+        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Аватар користувача 2" class="review-avatar">
+      </div>
+      <div class="col-md-8">
+        <h5>"Бабах на всю голову" </h5>
+        <p>Книга «Бабах на всю голову» Віталія Запеки є збіркою з 15 оповідань, що глибоко занурюють читача у реалії російсько-української війни. Автор, сам учасник бойових дій, відверто та щиро показує, як у надзвичайно складних умовах українці зберігають людяність, прагнення до свободи та жагу до життя.
+Однією з особливостей книги є поєднання різних емоційних відтінків: тут і щемливі моменти кохання, і натуралістичні, часом шокуючі сцени з окопів Донеччини, і мужні дії героїв у перші дні повномасштабного вторгнення. Ця контрастність створює ефект повного занурення, змушуючи читача відчувати всю глибину переживань героїв.
+Стиль Запеки вирізняється щирістю та прямотою. Автор не ховає правду за фільтрами перебільшення або романтизування війни. Це дозволяє збірці стати не лише художнім твором, а й свого роду документальною свідченням часу, що робить її важливою як для сучасних, так і для майбутніх поколінь.
+Книга здатна впливати на читача по-різному: хтось знайде в ній сили, щоб пережити власні травми, хтось — розради відмовившись від ілюзій про легкість життя під час війни. Вражає, що навіть у найтяжчі моменти автор зберігає віру в людяність, нагадуючи, що навіть у вирі насилля та руйнування доброта й любов можуть залишатися незмінними.
+        </p>
+      </div>
+    </div>
+
+    <div class="row align-items-center review mb-4">
+      <div class="col-md-4 text-center">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Аватар користувача 3" class="review-avatar">
+      </div>
+      <div class="col-md-8">
+        <h5>"Кіборги" </h5>
+        <p>Фільм «Кіборги» режисера Ахтема Сеїтаблаєва – це потужна воєнна драма, яка доторкається до болючих подій сучасної історії України, відтворюючи оборону Донецького аеропорту восени 2014 року. Стрічка показує українських військових не як героїв без вад, а як людських, живих людей із власними страхами, болем, ідеями та внутрішніми конфліктами.
+Сценаристка Наталія Ворожбит створила персонажів, що є збірними образами реальних захисників, кожен із яких має свою мотивацію та особисту історію. Центральний герой, Мажор, – син заможної родини і музикант, який добровільно приєднується до оборони аеропорту, на тлі ветеранів – Серпня, Суботи, Гіда, Старого та Марса – демонструє складнощі ідеологічних та генераційних розбіжностей всередині підрозділу, водночас об’єднуючи їх спільною метою: захистити країну.
+Особливу цінність фільму становлять діалоги та внутрішні рефлексії персонажів. Сцени показують, як солдати осмислюють моральні вибори, переживають втрати, реагують на страх і підтримують один одного. Через це глядач відчуває напруження та психологічну глибину бойових дій, що робить стрічку емоційно щільною і правдивою.
+Режисер умів обійтись без помпезного голлівудського пафосу та вибухових спецефектів. Хоча батальні сцени обмежені, вони органічно доповнюють історію, підкреслюючи хоробрість і стійкість героїв. Саундтрек, зокрема пісні Океан Ельзи такі як «Мить», додає сцени глибини та емоційного резонансу.
+Фільм «Кіборги» не просто демонструє бої, а пов’язує героїзм із людяністю: солдати плачуть, сваряться, сміються, сперечаються про ідеологію та майбутнє країни. Ворог також постає живим – мотивованим, ідеологічно підкованим, що додає правдивості і ускладнює однозначну карикатурність.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+.review-avatar {
+  width: 250px;      /* фіксована ширина */
+  height: 250px;     /* фіксована висота */
+  object-fit: cover; /* обрізає зайве і зберігає пропорції */
+  border-radius: 50%; /* кругла форма */
+  margin-bottom: 15px;
+}
+</style>
+
+
+<!-- Контакти -->
+<section id="contacts" class="fade-in-section">
+  <div class="container">
+    <h2 class="text-center mb-4 text-warning">Зв’язатися з нами</h2>
+    <form class="mx-auto" style="max-width:600px">
+      <div class="mb-3">
+        <label class="form-label">Ім’я</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Повідомлення</label>
+        <textarea class="form-control" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Надіслати</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Книги та фільми про війну. Усі права захищено.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const faders = document.querySelectorAll('.fade-in-section');
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+  faders.forEach(f => observer.observe(f));
+</script>
+</body>
+</html>
